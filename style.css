@@ -55,7 +55,7 @@ li a:hover {
 h1 {
     background-color: rgba(0, 0, 0, 0.8);
     /* background-image: url(./assets/bg_space_seamless_1.png); */
-    text-shadow: blue;
+    text-shadow:  1px 1px 2px black, 0 0 25px #6cf846, 0 0 5px #01acca;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -92,8 +92,24 @@ h1 {
     height: 400px;
 }
 
-p {
+.info {
     font-size: 60px;
     color: white;
     padding: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px #6cf846, 0 0 5px #01acca;
+    margin-left: 50px;
+}
+
+.characters-conteiner {
+    min-height: 100vh;
+    background-color: violet;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.item-grid {
+    background-color: yellow;
 }
