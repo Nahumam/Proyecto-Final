@@ -21,6 +21,7 @@ header {
     border-radius: 20px;
     box-shadow: 1px 10px 15px #6cf846;
     background-image: url(./assets/bg_space_seamless_1.png);
+    position: sticky;
 }
 
 img {
@@ -39,10 +40,16 @@ ul {
     list-style: none;
     display: flex;
     color: white;
-    padding: 20px;
     font-size: x-large;
+    border: 3px solid #01acca;
+    border-radius: 20px;
 }
 
 li {
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+li a:hover {
+    background-color: blue;
 }
