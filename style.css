@@ -53,8 +53,9 @@ li a:hover {
 }
 
 h1 {
-    background-color: black;
-    background-image: url(./assets/bg_space_seamless_1.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    /* background-image: url(./assets/bg_space_seamless_1.png); */
+    text-shadow: blue;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -65,12 +66,17 @@ h1 {
 }
 
 .home-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* background-image: url(./assets/bg_space_seamless_1.png); */
+    border: 3px solid #01acca;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 @keyframes example {
@@ -78,10 +84,16 @@ h1 {
     25%  {left:100%; top:0px;}
     50%  {left:100%; top:100%;}
     75%  {left:0px; top:100%;}
-    100% {left:0px; top:0px;}
+    100% {left:0px; top:100%;}
 }
 
 .img-animation {
     width: 800px;
     height: 400px;
+}
+
+p {
+    font-size: 60px;
+    color: white;
+    padding: 20px;
 }
