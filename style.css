@@ -14,19 +14,17 @@ body {
 header {
     display: flex;
     background-color: black;
-    height: 160px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     border: 3px solid #01acca;
     border-radius: 20px;
     box-shadow: 1px 10px 15px #6cf846;
     background-image: url(./assets/bg_space_seamless_1.png);
-    position: sticky;
 }
 
-img {
+.img-content {
     width: 400px;
-    height: 160px;
+    height: 206px;
     opacity: 1;
     animation: 3s infinite alternate slidein;
 }
@@ -40,7 +38,7 @@ ul {
     list-style: none;
     display: flex;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     border: 3px solid #01acca;
     border-radius: 20px;
 }
@@ -52,4 +50,38 @@ li {
 
 li a:hover {
     background-color: blue;
+}
+
+h1 {
+    background-color: black;
+    background-image: url(./assets/bg_space_seamless_1.png);
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    border: 3px solid #01acca;
+    border-radius: 20px;
+}
+
+.home-container {
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {left:0px; top:100%;}
+    25%  {left:100%; top:0px;}
+    50%  {left:100%; top:100%;}
+    75%  {left:0px; top:100%;}
+    100% {left:0px; top:0px;}
+}
+
+.img-animation {
+    width: 800px;
+    height: 400px;
 }
