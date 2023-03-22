@@ -77,12 +77,12 @@ h1 {
     margin: 40px;
     border: 3px solid #01acca;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .home-container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.9);
-    /* background-image: url(./assets/bg_space_seamless_1.png); */
     border: 3px solid #01acca;
     border-radius: 20px;
     padding: 20px;
@@ -131,6 +131,7 @@ h1 {
     padding: 20px;
     margin: 10px;
     text-align: center;
+    border: 3px solid #01acca;
     border-radius: 10px;
 }
 
@@ -146,6 +147,7 @@ h1 {
     font-size: 30px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px #6cf846, 0 0 5px #01acca;
+    cursor: pointer;
 }
 
 .item-grid p {
@@ -153,4 +155,35 @@ h1 {
     padding: 5px;
     font-size: 20px;
     color: white;
+}
+
+.episodes {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid #01acca;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+.img-hbo {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.img-flecha {
+    width: 25%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.info-seasons {
+font-size: 60px;
+color: white;
+padding: 20px;
+text-shadow: 1px 1px 2px black, 0 0 25px #6cf846, 0 0 5px #01acca;
 }
