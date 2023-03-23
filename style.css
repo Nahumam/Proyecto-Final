@@ -199,16 +199,27 @@ footer {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 10px;
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
 }
 
-.data-section {
-
+.data-section p {
+    padding: 5px;
 }
 
 .contact-section {
-    
+    text-align: center;
 }
 
 .img-github, .img-gmail {
     width: 10%;
+}
+
+.arrow-icon {
+    position: fixed;
+    right: 25px;
+    bottom: 110px;
+    width: 5%;
+    height: 10%;
 }
