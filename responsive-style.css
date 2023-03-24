@@ -1,0 +1,135 @@
+@media (max-width: 880px) {
+    header {
+    justify-content: center;
+    }
+
+    nav {
+        width: 41%;
+    }
+
+    ul {
+        font-size: 20px;
+    }
+
+    li {
+        margin: 0px;
+    }
+
+    h1 {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .home-container {
+        width: 95%;
+    }
+
+    .info {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .img-animation {
+        width: 400px;
+        height: 200px;
+    }
+
+    .characters-conteiner {
+        margin-left: 35px;
+    }
+
+    .episodes {
+        width: 95%;
+    }
+
+    .episodes a {
+        width: 50%;
+    }
+
+    .img-hbo {
+        width: 65%;
+        border-radius: 10px;
+    }
+
+    .img-flecha {
+        width: 20%;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+
+    .info-seasons {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    .data-section, .contact-section {
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        width: 50%;
+    }
+
+    ul {
+        font-size: 11px;
+    }
+
+    h1 {
+        width: 95%;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .home-container {
+        margin: 10px;
+    }
+
+    .img-animation {
+        width: 200px;
+        height: 100px;
+    }
+
+    .info {
+        font-size: 14px;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .characters-conteiner {
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .item-grid {
+        width: 50%;
+        height: 50%;
+    }
+
+    .item-grid img {
+        width: 60%;
+    }
+
+    .item-grid h2, p {
+        padding: 0;
+        font-size: 20px;
+    }
+    .item-grid p {
+        font-size: 10px;
+    }
+
+    .episodes {
+        width: 90%;
+    }
+
+    .img-hbo {
+        width: 100%;
+        border-radius: 10px;
+    }
+}

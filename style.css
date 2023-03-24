@@ -13,15 +13,14 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.9);
-    /* background-color: black; */
     justify-content: space-around;
     align-items: center;
     border: 4px solid #01acca;
     border-radius: 20px;
     box-shadow: 1px 10px 15px #6cf846;
-    /* background-image: url(./assets/bg_space_seamless_1.png); */
 }
 
 .div-header {
